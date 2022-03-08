@@ -1,0 +1,231 @@
+@import url(../css/media.css);
+@import url(../css/index.css);
+@import url(../blog.html);
+
+.all-course-main-hero{
+    position: relative;
+    top: -13rem;
+}
+.serach-course-box{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: transparent;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.serach-course-box input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 4px;
+}
+.serach-course-box input::placeholder{
+    color: #000;
+    font-family: "Raleway-semibold";
+}
+.serach-course-box i{
+    padding-right: 10px;
+}
+.serach-course-box i.fa{
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px){
+    .main-nav, .top-nav{
+        display: none;
+    }
+
+    .navbar-brand img{
+        width: 150px;
+    }
+    .nav-item a{
+        color: #000;
+        text-align: center;
+        font-family: "Raleway-semibold";
+    }
+    .nav-item a:hover{
+        color: var(--main);
+    }
+  
+      .hero-text-1 {
+          padding-top: 38%;
+      }
+      .hero-text-1 p{
+          letter-spacing: 7px;
+          font-family: "Raleway-extrabold";
+          font-weight: bold;
+          font-size: 16px;
+      }
+      .hero-text-2 h1{
+          font-size: 21px;
+          line-height: 25px;
+      }
+      .hero-text-3 h4{
+          line-height: 25px;
+          font-size: 16px;
+      }
+      .hero-text-3{
+          padding-top: 30px;
+      }
+      .hero-search button{
+          width: 100%;
+          padding: 15px 10px;
+      }
+      .hero-box{
+          padding: 15px 10px;
+          box-shadow: 0px 0px 0px #ccc;
+      }
+      .hero-img img{
+          width: 100%;
+      }
+      .hero-img{
+          padding-top: 35px;
+      }
+      .box-1 p{
+          font-size: 18px;
+      }
+      .category-text-2 h3{
+          font-size: 15px;
+          text-align: center;
+      }
+      .category-text-1 p{
+          font-family: "Raleway-bold";
+      }
+      .browse-category{
+            position: relative;
+            background-color: #ff4000;
+            margin-top: 25px;
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px 0;
+            border-radius: 7px;
+            left: -7rem;
+
+            
+        
+          
+      }
+      .browse-category a{
+          font-size: 17px;
+      }
+      .flex-small{
+          display: flex;
+      }
+      .about-text{
+          text-align: center;
+      }
+      .about-text-2 h3{
+         font-size: 25px;
+         font-weight: bolder;
+      }
+      .class-1 h3{
+          font-size: 25px;
+          font-weight: bolder;
+      }
+      .review p{
+          font-size: 10px;
+      }
+      .main-tutor img{
+          width: 180px;
+          text-align: center;
+          position: relative;
+          left: 15%;
+          padding-bottom: 15px;
+      }
+      .student-1 p{
+          padding-right: 10px;
+          top: 10px;
+      }
+
+      .qualification{
+          font-size: 18px;
+      }
+      .feedback-text h3 {
+         font-size: 25px;
+         font-weight: bolder;
+      }
+      .feedback-all-video{
+          background-color: #fff;
+          padding: 10px;
+        
+      }
+      .text-color-1{
+          font-size: 15px;
+      }
+      .blog-text{
+          font-size: 28px;
+          font-weight: bolder;
+      }
+      .live-chart-content{
+        background-color: green;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        width: 20%;
+        height: 40px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .footer-text-1 h2{
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .blog-hero-text{
+        padding-top: 20%;
+    }
+    .sub-box{
+        display: flex;
+        width: 100%;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        align-items: center;
+    }
+    .sub-box button{
+        width: 80%;
+        font-size: 13px;
+    }
+    .all-course-main-hero{
+        position: relative;
+        top: -5rem;
+    }
+    .course-search-content{
+        background: var(--main);
+        padding: 8px;
+        box-shadow: 2px 3px 2px #ccc;
+        border-radius: 50px 50px 50px 50px;
+        margin-top: 30px;
+    }
+    .course-search-box{
+        width: 100%;
+        background: transparent;
+        border: 2px solid #fff;
+        border-radius: 50px;
+        padding: 6px;
+        display: flex;
+        align-items: center;
+        box-shadow: 2px 1px 2px #ccc;
+    }
+
+
+    /* Blog-page */
+    .blog-title h4{
+        font-size: 20px;
+    }
+    
+    
+   
+
+
+   
+
+}

@@ -1,0 +1,33 @@
+.progress-label-left
+{
+    float: left;
+    margin-right: 0.5em;
+    line-height: 1em;
+}
+.progress-label-right
+{
+    float: right;
+    margin-left: 0.3em;
+    line-height: 1em;
+}
+.star-light
+{
+	color:#e9ecef;
+}
+.card-heade h4{
+    font-weight: bolder;
+}
+.btn-button{
+    background-color: #ff4000;
+    color: #fff;
+    font-weight: bolder;
+}
+.btn-button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+.pop-header{
+    color: #ff4000;
+}

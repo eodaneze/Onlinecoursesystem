@@ -1,0 +1,263 @@
+@import url(../css/index.css);
+
+.about-content{
+    background-color: #fff4f4ff;
+    width: 100%;
+    padding: 70px 0;
+    
+}
+.about-img{
+    background-image: url(../img/about-1.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.about-img-i{
+    background-color: #fff;
+    padding: 14px;
+}
+.about-img img{
+    position: relative;
+    top: 60%;
+    left: 55%;
+    background-color: #fff;
+    padding:14px ;
+    width: 200px;
+    
+}
+.years-of-experience{
+    background-color: var(--main);
+    border: 7px solid #fff;
+    width: 140px;
+    text-align: center;
+    color: #fff;
+}
+.years-plus{
+    position: relative;
+    left: 40%;
+}
+.years-plus h4{
+    font-family: "Raleway-bold";
+    font-size: 40px;
+}
+.years-of-experience p{
+    font-family: "Raleway-semibold";
+}
+.all-goals-content p{
+    font-family: "Raleway-semibold";
+    color: #555;
+}
+.progress-move h4{
+    position: relative;
+    top: 30px;
+}
+.progress-move progress{
+    margin-top: 14px;
+}
+.about-link-icon i{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+.about-link-icon a{
+    text-decoration: none;
+    color: #000;
+}
+.about-link-icon a i{
+    margin: 20px 5px;
+}
+.about-link-icon i:hover{
+    background-color: var(--main);
+    color: #fff;
+}
+
+
+
+
+
+@media (max-width: 800px){
+    .main-nav, .top-nav{
+        display: none;
+    }
+
+    .navbar-brand img{
+        width: 150px;
+    }
+    .nav-item a{
+        color: #000;
+        text-align: center;
+        font-family: "Raleway-semibold";
+    }
+    .nav-item a:hover{
+        color: var(--main);
+    }
+  
+      .hero-text-1 {
+          padding-top: 38%;
+      }
+      .hero-text-1 p{
+          letter-spacing: 7px;
+          font-family: "Raleway-extrabold";
+          font-weight: bold;
+          font-size: 16px;
+      }
+      .hero-text-2 h1{
+          font-size: 21px;
+          line-height: 25px;
+      }
+      .hero-text-3 h4{
+          line-height: 25px;
+          font-size: 16px;
+      }
+      .hero-text-3{
+          padding-top: 30px;
+      }
+      .hero-search button{
+          width: 100%;
+          padding: 15px 10px;
+      }
+      .hero-box{
+          padding: 15px 10px;
+          box-shadow: 0px 0px 0px #ccc;
+      }
+      .hero-img img{
+          width: 100%;
+      }
+      .hero-img{
+          padding-top: 35px;
+      }
+      .box-1 p{
+          font-size: 18px;
+      }
+      .category-text-2 h3{
+          font-size: 15px;
+          text-align: center;
+      }
+      .category-text-1 p{
+          font-family: "Raleway-bold";
+      }
+      .browse-category{
+            position: relative;
+            background-color: #ff4000;
+            margin-top: 25px;
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px 0;
+            border-radius: 7px;
+            left: -7rem;
+
+            
+        
+          
+      }
+      .browse-category a{
+          font-size: 17px;
+      }
+      .flex-small{
+          display: flex;
+      }
+      .about-text{
+          text-align: center;
+      }
+      .about-text-2 h3{
+         font-size: 25px;
+         font-weight: bolder;
+      }
+      .class-1 h3{
+          font-size: 25px;
+          font-weight: bolder;
+      }
+      .review p{
+          font-size: 10px;
+      }
+      .main-tutor img{
+          width: 180px;
+          text-align: center;
+          position: relative;
+          left: 15%;
+          padding-bottom: 15px;
+      }
+      .student-1 p{
+          padding-right: 10px;
+          top: 10px;
+      }
+
+      .qualification{
+          font-size: 18px;
+      }
+      .feedback-text h3 {
+         font-size: 25px;
+         font-weight: bolder;
+      }
+      .feedback-all-video{
+          background-color: #fff;
+          padding: 10px;
+        
+      }
+      .text-color-1{
+          font-size: 15px;
+      }
+      .blog-text{
+          font-size: 28px;
+          font-weight: bolder;
+      }
+      .live-chart-content{
+        background-color: green;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        width: 20%;
+        height: 40px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .footer-text-1 h2{
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .blog-hero-text{
+        padding-top: 20%;
+    }
+    .sub-box{
+        display: flex;
+        width: 100%;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        align-items: center;
+    }
+    .sub-box button{
+        width: 80%;
+        font-size: 13px;
+    }
+
+
+    /* Blog-page */
+    .blog-title h4{
+        font-size: 20px;
+    }
+    .pag-3{
+        display: none;
+    }
+   .hero-blog-title h3{
+       font-size: 25px;
+   }
+   /* .hero-blog-text h4{
+       font-size: 14px;
+   } */
+    
+
+   .about-img img{
+    position: relative;
+    top: 60%;
+    left: 55%;
+    background-color: #fff;
+    padding:14px ;
+    width: 150px;
+    
+}
+ 
+   
+
+
+   
+}

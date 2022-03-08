@@ -1,0 +1,221 @@
+@import url(../css/index.css);
+@import url(../css/media.css);
+
+.course-hero{
+    background-color: #f4f4f4;
+    padding-top: 7%;
+}
+.course-hero-left-link a{
+    background-color: rgb(32, 116, 32);
+    color: #fff;
+    font-family: "Raleway-bold";
+}
+.course-hero-left-link a:hover{
+    color: #fff;
+}
+.course-hero-left-link a i{
+    margin: 0 10px;
+}
+.course-main-title h1{
+    font-family: "Raleway-extrebold";
+    font-weight: bolder;
+}
+.course-main-tutor div{
+    margin: 0 20px;
+}
+.course-main-tutor div p{
+    margin-left: 12px;
+    font-family: "Raleway-semibold";
+}
+.course-main-tutor div i{
+    margin: 0 7px;
+    color: var(--main);
+    position: relative;
+    top: -6px;
+}
+.course-main-img{
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 7px;
+    position: relative;
+    z-index: 60;
+    border-bottom: 1px solid #ccc;
+}
+.course-sub-1{
+    background-color:  #fff4f4ff;
+  position: relative;
+  top: -2.7rem;
+  padding-bottom: 23px;
+}
+.course-overview h5{
+    padding: 15px 0;
+}
+.course-overview h4{
+    padding: 15px 0;
+}
+.expectation-icon div i{
+    position: relative;
+    top: 6px;
+}
+.expectation-icon div p{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.row-expectation{
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+.accordion-header button{
+    background-color: #f4f4f4;
+}
+.accordion-header button p{
+    float: right;
+}
+.accordion-body{
+    background-color: #fff;
+}
+.accordion-icon p{
+    position: relative;
+    top: 8px;
+    margin-left: 15px;
+}
+
+.hour-pre p{
+    position: relative;
+    top: 8px;
+    margin: 0 10px;
+}
+.accordion-icon p{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.accordion-icon p:hover{
+    color: var(--main);
+}
+.sub-course-price h4{
+    margin-top: 10%;
+}
+.sub-course-price{
+    background-color: #fff;
+    width: 100%;
+    height: 90vh;
+    border-radius: 10px;
+}
+.sub-course-price a{
+    background-color: var(--main);
+    color: #fff;
+    width: 100%;
+    font-family: "Raleway-bold";
+}
+.sub-course-price a:hover{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #000;
+}
+.sub-course-price h4{
+    padding: 20px 15px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.course-include-icon div p{
+    position: relative;
+    top: -5px;
+    margin-left: 15px;
+}
+.course-include-icon div i{
+    color: #555;
+    font-size: 14px;
+}
+.course-social-link i{
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 50%;
+
+}
+.course-social-link a{
+    background-color: transparent !important;
+    border: none !important;
+
+}
+.course-social-link i{
+    margin: 0 7px;
+}
+.course-social-link .social-face i{
+    background-color: #0000c6;
+    color: #fff;
+    font-weight: bold;
+}
+.course-social-link .social-whatsapp i{
+    background-color: #008000;
+    color: #fff;
+    font-weight: bold;
+}
+.course-social-link .social-twitter i{
+    background-color: #004080;
+    color: #fff;
+    font-weight: bold;
+}
+.course-social-link .social-face i:hover,.course-social-link .social-whatsapp i:hover,.course-social-link .social-twitter i:hover{
+    background-color: #fff;
+    color: #000;
+}
+.all-about-tutor{
+    margin-left: 15px;
+}
+.all-about-tutor div p{
+    position: relative;
+    top: 6px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+@media (max-width:800px){
+    .course-hero-left-link a{
+        background-color: rgb(32, 116, 32);
+        color: #fff;
+        font-family: "Raleway-bold";
+        margin-top: 19%;
+    }
+    .course-main-tutor div{
+        margin: 0 0px;
+    }
+    .course-main-tutor{
+        font-size: 12px;
+    }
+    .course-main-tutor div i{
+        margin: 0 0px;
+        color: var(--main);
+        position: relative;
+        top: -0px;
+    }
+    .course-main-tutor div p{
+        position: relative;
+        top: 12px;
+    }
+    .main-name-tutor{
+        margin-right: 5px;
+    }
+    .course-main-img{
+        background-color: #fff;
+        padding: 8px;
+        border-radius: 7px;
+        position: relative;
+        right: 0rem;
+        z-index: 60;
+    }
+    .sub-course-price{
+        background-color: #fff;
+        width: 100%;
+        height: 100vh;
+        
+    }
+    .about-tutor-img{
+        flex-direction: column;
+    }
+  
+}

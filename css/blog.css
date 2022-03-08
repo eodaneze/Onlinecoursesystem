@@ -1,0 +1,151 @@
+@import url(../css/index.css);
+@import url(../css/media.css);
+
+
+  /*Universal Font family*/
+ 
+  @font-face{
+    font-family: "Raleway-regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face{
+    font-family: "Raleway-bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face{
+    font-family: "Raleway-semibold";
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face{
+    font-family: "Raleway-extrabold";
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+@font-face{
+    font-family: "Raleway-back";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+@font-face{
+    font-family: "Raleway-medium";
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+.all-blog-hero{
+    background-color: #f2f2f2;
+    place-items: center;
+    padding: 50px 0;
+}
+.hero-blog-text{
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 2px #ccc;
+}
+.hero-blog-title h3{
+   color: var(--main);
+   padding-bottom: 15px;
+}
+.hero-blog-title{
+    position: relative;
+}
+.hero-blog-line{
+    width: 90%;
+    background-color: #fff;
+    height: 5px;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 15px;
+}
+.hero-blog-line-2{
+    background-color: var(--main);
+    width: 20%;
+    height: 5px;
+    border-radius: 15px;
+}
+.blog-hero-left p{
+    position: relative;
+    left: 4rem;
+    
+}
+.blog-hero-left h4{
+    position: relative;
+    left: 4rem;
+}
+.blog-hero-left p a{
+    font-style: italic;
+}
+
+.hero-blog-title::after{
+     content: '';
+     position: absolute;
+     width: 100px;
+     height: 4px;
+     background-color: #000;
+     bottom: 0;
+     border-radius: 10px;
+    
+}
+.hero-blog-text h4{
+    font-size: 50px;
+    font-family: "Raleway-extrebold";
+    font-weight: bolder;
+}
+.blog-hero-text p a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    
+}
+.blog-hero-text h3{
+    font-family: "Raleway-bold";
+    font-size: 40px;
+    margin-top: 5%;
+}
+.blog-hero-text p a:hover{
+    color: var(--main);
+}
+.all-blog-main-hero{
+    position: relative;
+    top: -9rem; 
+    padding: 70px 0;
+}
+.blog-pagination-content a{
+    margin: 0 7px;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 50%;
+    color: #000;
+    text-decoration: none;
+    
+}
+.blog-pagination-content{
+    padding-top: 15px;
+}
+.pag-1:hover,.pag-2:hover,.pag-3:hover,.pag-4:hover,.pag-5:hover{
+    background-color: var(--main);
+    color: #fff;
+}
+
+
+
+
+@media (max-width:800px){
+    .blog-hero-text h3{
+        font-family: "Raleway-bold";
+        font-size: 30px;
+        margin-top: 5%;
+    }
+    .all-blog-main-hero{
+        position: relative;
+        top: -3rem;
+        padding: 70px 0;
+    }
+    .hero-blog-text h4{
+        font-size: 30px;
+    }
+    .blog-hero-left p,.blog-hero-left h4,.blog-hero-left.hero-blog-line{
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
+    .blog-hero-left{
+        margin-top: 30px;
+    }
+}
